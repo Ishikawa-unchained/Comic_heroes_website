@@ -120,3 +120,8 @@ footer {
     text-align: start;
     padding-left: 20px;
 }
+@media only screen and (max-width: 500px) {
+    #portfolio h2, #team h2 {
+        display: none;
+    }
+}
