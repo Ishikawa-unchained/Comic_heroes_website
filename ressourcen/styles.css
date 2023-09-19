@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    background-color: #FF851B;
+    background-color: #D86411;
     text-align: center;
     color: aliceblue;
     font-family: 'Comic Neue';
@@ -25,7 +25,7 @@ nav {
     border-bottom: 1px solid seashell;
     z-index: 2;
     opacity: 1;
-    background-color: #FF851B;
+    background-color: #D86411;
 }
 ul {
     list-style: none;
