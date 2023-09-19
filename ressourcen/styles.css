@@ -1,0 +1,122 @@
+body {
+    width: 100%;
+    background-color: #FF851B;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Comic Neue';
+    font-size: 22px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    height: 100px;
+    width: auto;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    z-index: 5;
+    opacity: 1;
+    background-color: #FF851B;
+}
+ul {
+    list-style: none;
+}
+
+.navbar li{
+    display: inline-flex;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+li a {
+    color: aliceblue;
+}
+li a:hover {
+    text-decoration: none;
+}
+
+.missioncontainer {
+    background-color: black;
+    margin: auto;
+    width: 100%;
+}
+
+#mission  {
+    position: relative;
+    top: 100px;
+    padding: 80px;
+    display: flex;
+    height: 700px;
+    width: 100%;
+    background-image: url(images/comic-store.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+#portfolio {
+    position: relative;
+    top: 20px;
+    height: 600px;
+    width: auto;
+    padding: 80px 0;
+    background-color: azure;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+#team {
+    position: relative;
+    top: 30px;
+    padding: 80px 0;
+    margin: 100px;
+    width: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.teamcontainer img {
+    height: 200px;
+    border-radius: 40px;
+}
+
+figcaption p {
+    width: 240px;
+}
+footer {
+    padding: 80px 0;
+    background-color: black;
+    position: relative;
+    top: 21px;
+}
+.copyright {
+    text-align: start;
+    padding-left: 20px;
+}
